@@ -13,7 +13,7 @@ $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 body {
   color: #333;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 2.2;
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: none;
@@ -180,7 +180,7 @@ a {
       }
 
       & > li {
-        height: 22px;
+        height: 24px;
         @media screen and (max-width: 720px) {
           display: inline-block;
         }
@@ -318,9 +318,10 @@ a {
       display: inline-block;
       float: left;
       width: 25%;
+      margin-top: 5px;
+      margin-bottom: 10px;
       @media screen and (max-width: 720px) {
         width: 100%;
-        margin-bottom: 5px;
       }
     }
 
@@ -332,6 +333,7 @@ a {
 
     .item-name {
       float: left;
+      font-weight: bold;
     }
   }
 
